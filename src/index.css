@@ -1,0 +1,26 @@
+
+nav {
+    padding: 16px;
+    
+}
+
+nav a{
+    margin-right: 16px;
+}
+
+nav a.active{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
