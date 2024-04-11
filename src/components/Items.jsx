@@ -18,7 +18,7 @@ const Items = () => {
       const resp = await fetch(url);
       const data = await resp.json();
       const res = data.filter((uni) => {
-        return uni.country === "Niger" || uni.country === "Israel" || uni.country === "France";
+        return uni.country === "Niger" || uni.country === "Israel" || uni.country === "Jamiaca";
       });
       setUniData(res);
       setResaults(uniData);
@@ -70,8 +70,8 @@ const Items = () => {
       </div>
       {resaults.map((uni) => {
         return (
-          <ul>
-            <li className="uni"> University name: {uni.name} <br />
+          <ul className="list-group">
+            <li className="list-group-item list-group-item-dark"> University name: {uni.name} <br />
                  Country: {uni.country} <br />
                  Website: {uni.web_pages[0]}</li>
           </ul>

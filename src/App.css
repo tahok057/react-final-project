@@ -88,14 +88,13 @@
 
   .item-container{
     background-color: #767272;
-    height: 4500px;
+    height: 100vh;
     width: 100%;
   }
 
-  .uni{
+  .univ{
     text-align: center;
     width: 50vh;
     height: fit-content;
     border: red;
-    border-radius: 7px;
   }

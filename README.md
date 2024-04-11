@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# this is a react vite that uses these packages(u need to use the commands below in the terminal):
 
-Currently, two official plugins are available:
+  1. bootstrap: npm i bootstrap 
+  2. react-router-dom: npm i react-router-dom
+  3. react-icons: npm i react-icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# to run the up u have type npm run dev in the terminal
